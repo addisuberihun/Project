@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.box {
+    height: 400px;
+    width: 700px;
+    margin: 8px;
+    margin-left: 350px;
+    display: flex;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 60s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('photo/accadamic_photo/boysrd.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+
+
+    }
+
+    10% {
+        background-image: url('photo/science_photo/girlread.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+    }
+
+    20% {
+        background-image: url('photo/islam_photo/qurangirl.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+
+    }
+
+    30% {
+        background-image: url('photo/fiction_photo/ormaye.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+    }
+
+    40% {
+        background-image: url('photo/uviversity_photo/select.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+
+    }
+
+    50% {
+        background-image: url('photo/accadamic_photo/newtons.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+
+    }
+
+    60% {
+        background-image: url('photo/orthodox_photo/redbible.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+
+    }
+
+    70% {
+        background-image: url('photo/accadamic_photo/reading.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+
+    }
+
+    80% {
+        background-image: url('photo/back.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+    }
+
+    90% {
+        background-image: url('photo/protestant_photo/reform.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+
+    }
+
+    100% {
+
+        background-image: url('photo/fiction_photo/freelyred.png');
+        background-repeat: no-repeat;
+        background-size: 700px 400px;
+        animation-delay: 4s;
+    }
+
+
+}
